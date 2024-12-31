@@ -1,0 +1,8 @@
+Package: com.libqxangeltoolstj.mx
+Name: libQxAngelToolsTJ
+Version: 2.0
+Architecture: iphoneos-arm
+Description:  UIAlertController Custom For iOS
+Maintainer: @6ky_l
+Author: @6ky_l <Amarillo>
+Section: Tweaks
