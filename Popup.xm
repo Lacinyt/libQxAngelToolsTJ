@@ -100,8 +100,8 @@ void QxAlert() {
             : UIAlertControllerStyleAlert;       // Para iPad
 
         // Crear el UIAlertController con título y mensaje
-        UIAlertController *view = [UIAlertController alertControllerWithTitle:@"Hello World"
-                                                                     message:@"This is a UIAlertController"
+        UIAlertController *view = [UIAlertController alertControllerWithTitle:@"Hi Everyone!"
+                                                                     message:@"Thanks for using -Lacin"
                                                               preferredStyle:alertStyle];
 
         // Botón "Website" con color amarillo
