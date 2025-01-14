@@ -120,7 +120,7 @@ void QxAlert() {
         UIAlertAction* instagram = [UIAlertAction actionWithTitle:@"Instagram"
                                                           style:UIAlertActionStyleDefault
                                                         handler:^(UIAlertAction * action) {
-                                                            NSURL *url = [NSURL URLWithString:@"https://www.instagram.com/6ky_l/"];
+                                                            NSURL *url = [NSURL URLWithString:@"https://www.instagram.com/lacinyt/"];
                                                             if ([[UIApplication sharedApplication] canOpenURL:url]) {
                                                                 [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
                                                             }
@@ -132,7 +132,7 @@ void QxAlert() {
         UIAlertAction* paypal = [UIAlertAction actionWithTitle:@"Paypal"
                                                         style:UIAlertActionStyleDefault
                                                       handler:^(UIAlertAction * action) {
-                                                          NSURL *url = [NSURL URLWithString:@"https://www.paypal.me/onlykex1"];
+                                                          NSURL *url = [NSURL URLWithString:@"https://www.paypal.me/Lacinyt"];
                                                           if ([[UIApplication sharedApplication] canOpenURL:url]) {
                                                               [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
                                                           }
