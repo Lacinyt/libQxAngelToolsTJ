@@ -13,7 +13,7 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = libQxAngelToolsTJ
 
 
-$(TWEAK_NAME)_FILES = $(wildcard *.xm)
+$(TWEAK_NAME)_FILES = $(wildcard *.x)
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc
 $(TWEAK_NAME)_LOGOS_DEFAULT_GENERATOR = internal
 
